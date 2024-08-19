@@ -3,14 +3,14 @@ package generate
 import (
 	"log"
 
-	"github.com/ViRb3/wgcf/v2/cloudflare"
-	. "github.com/ViRb3/wgcf/v2/cmd/shared"
-	"github.com/ViRb3/wgcf/v2/config"
-	"github.com/ViRb3/wgcf/v2/util"
-	"github.com/ViRb3/wgcf/v2/wireguard"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
+	"github.com/ysmood/wgcf/v2/cloudflare"
+	. "github.com/ysmood/wgcf/v2/cmd/shared"
+	"github.com/ysmood/wgcf/v2/config"
+	"github.com/ysmood/wgcf/v2/util"
+	"github.com/ysmood/wgcf/v2/wireguard"
 )
 
 var profileFile string

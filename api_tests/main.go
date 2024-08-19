@@ -10,9 +10,9 @@ import (
 
 	opticgo "github.com/ViRb3/optic-go"
 	"github.com/ViRb3/sling/v2"
-	"github.com/ViRb3/wgcf/v2/cloudflare"
-	"github.com/ViRb3/wgcf/v2/util"
-	"github.com/ViRb3/wgcf/v2/wireguard"
+	"github.com/ysmood/wgcf/v2/cloudflare"
+	"github.com/ysmood/wgcf/v2/util"
+	"github.com/ysmood/wgcf/v2/wireguard"
 )
 
 var defaultHeaders = map[string]string{}

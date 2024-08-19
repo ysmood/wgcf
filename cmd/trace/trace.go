@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strings"
 
-	. "github.com/ViRb3/wgcf/v2/cmd/shared"
-	"github.com/ViRb3/wgcf/v2/util"
 	"github.com/spf13/cobra"
+	. "github.com/ysmood/wgcf/v2/cmd/shared"
+	"github.com/ysmood/wgcf/v2/util"
 )
 
 var shortMsg = "Prints trace information about the current internet connection"

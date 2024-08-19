@@ -1,4 +1,4 @@
-module github.com/ViRb3/wgcf/v2
+module github.com/ysmood/wgcf/v2
 
 go 1.18
 

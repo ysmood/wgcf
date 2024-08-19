@@ -4,14 +4,14 @@ import (
 	"errors"
 	"log"
 
-	"github.com/ViRb3/wgcf/v2/cmd/generate"
-	"github.com/ViRb3/wgcf/v2/cmd/register"
-	. "github.com/ViRb3/wgcf/v2/cmd/shared"
-	"github.com/ViRb3/wgcf/v2/cmd/status"
-	"github.com/ViRb3/wgcf/v2/cmd/trace"
-	"github.com/ViRb3/wgcf/v2/cmd/update"
-	"github.com/ViRb3/wgcf/v2/config"
-	"github.com/ViRb3/wgcf/v2/util"
+	"github.com/ysmood/wgcf/v2/cmd/generate"
+	"github.com/ysmood/wgcf/v2/cmd/register"
+	. "github.com/ysmood/wgcf/v2/cmd/shared"
+	"github.com/ysmood/wgcf/v2/cmd/status"
+	"github.com/ysmood/wgcf/v2/cmd/trace"
+	"github.com/ysmood/wgcf/v2/cmd/update"
+	"github.com/ysmood/wgcf/v2/config"
+	"github.com/ysmood/wgcf/v2/util"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -25,7 +25,7 @@ var RootCmd = &cobra.Command{
 	Long: FormatMessage("", `
 wgcf is a utility for Cloudflare Warp that allows you to create and
 manage accounts, assign license keys, and generate WireGuard profiles.
-Made by Victor (@ViRb3). Project website: https://github.com/ViRb3/wgcf/v2`),
+Made by Victor (@ViRb3). Project website: https://github.com/ysmood/wgcf/v2`),
 	Run: func(cmd *cobra.Command, args []string) {
 		if err := cmd.Help(); err != nil {
 			log.Fatal(util.GetErrorMessage(err))
